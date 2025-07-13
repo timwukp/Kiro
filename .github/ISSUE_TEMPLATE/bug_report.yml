@@ -26,16 +26,6 @@ body:
       required: true
 
   - type: textarea
-    id: conversation-id
-    attributes:
-      label: Conversation ID
-      description: |
-        The conversation ID where the issue occurred (automatically populated when submitted from the IDE)
-      placeholder: "e.g., 1234-5678-9876"
-    validations:
-      required: false
-
-  - type: textarea
     id: bug-description
     attributes:
       label: Bug Description
@@ -67,6 +57,16 @@ body:
       placeholder: "Explain what Kiro should have done when you performed the actions above. Describe the intended outcome or behavior."
     validations:
       required: true
+
+  - type: textarea
+    id: conversation-id
+    attributes:
+      label: Conversation ID
+      description: |
+        The conversation ID where the issue occurred (automatically populated when submitted from the IDE)
+      placeholder: "e.g., 1234-5678-9876"
+    validations:
+      required: false
 
   - type: textarea
     id: additional-context
