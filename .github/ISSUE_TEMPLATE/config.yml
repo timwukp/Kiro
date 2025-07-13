@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Kiro Community Discord
+    url: https://discord.gg/kirodotdev
+    about: Join the community to discuss features, share feedback, and connect with other developers using Kiro.
+  - name: 📚 Kiro Documentation
+    url: https://docs.kiro.dev
+    about: Refer to our technical documentation for guides, best practices and troubleshooting common issues.
+  - name: 👻 Kiro Website
+    url: https://kiro.dev
+    about: Learn about Kiro features and download the latest version.
